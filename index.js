@@ -11,8 +11,6 @@ console.log()"server is running on port:",PORT);
 })
 
 app.post("/send-mail",(req,res)=>{
-try{}
-catch{
+const {data}=req.body;
 
-}
 })
